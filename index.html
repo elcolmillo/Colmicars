@@ -1,314 +1,301 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/basilisco.png" />
+  <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <title>Inicio</title>
+</head>
+<body>
 
-    <!-- Bootstrap CSS -->
-    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container" id="navvvar">
+      <a class="navbar-brand" id="ini">
+        <img src="images/basilisco.png" alt="" width="50" height="50"> 
+      </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#inisio"> Inicio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#desc"> Productos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#servisio" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#instag" >Instagram</a></li>
+              <li><a class="dropdown-item" href="#spoti" >Spotify</a></li>
+              <li><a class="dropdown-item" href="#youtube" >Youtube</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#desc"> ¿Quienes somos? </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <title>Colmicars</title>
 
-    <style>
-
-      #completo{
-        background-image: url(https://i.ibb.co/b7P8cH2/pattern.png);
-      }
-
-      .row>.col, -bd-example-row .row>[class^="col."]{
-        padding-top:.75rem;
-        padding-bottom: .75rem;
-        background-color: rgba(39, 41, 43, 0.03);
-        border: 1px solid rgba(39, 41, 43, 0.1);
-      }
-
-      .carousel-transition-duration{
-        transition: transform 2s ease, opacity .5s ease-out;
-      }
-
-      #botonsubir {
-        width: 50px;
-        height: 50px;
-        border-radius: 100%;
-        text-align: center;
-        line-height: 65px;
-        position: fixed;
-        right: 30px;
-        bottom: 30px;
-        }
-      #botonsubir a {
-        color: #fdf3e1;  
-        display: block;
-        border-radius: 100%;
-      }
-      #insta{
-        width: 30px;
-        
-      }
-
-    </style>
-
-  </head>
-  <body id="completo">
-
-    <!--NAVEGACION-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container" id="navvvar">
-        <a class="navbar-brand" id="ini">
-          <img src="images/logo web.jpg" alt="" width="50" height="50">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#inisio"> Inicio </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#desc"> Descargas</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#servisio" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Servicios
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#instag" >Instagram</a></li>
-                <li><a class="dropdown-item" href="#spoti" >Spotify</a></li>
-                <li><a class="dropdown-item" href="#youtube" >Youtube</a></li>
-              </ul>
-            </li>
-          </ul>
+  <div class="container-xl">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/basilisco.png" width="120px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/basilisco.png" width="120px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/basilisco.png" width="120px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
         </div>
       </div>
-    </nav>
-    <!--NAVEGACION-->
-
-
-    <!--CONTENEDOR-->
-    <div class="container-fluid ">
-      <br>
-      <div class="container-sm p-3 mb-2 bg-dark text-white">
-          <figure class="text-center">
-            <blockquote class="blockquote">
-              <h1 class="display-2" id="inisio">Colmicars</h1>
-            </blockquote>
-            <figcaption class="blockquote-footer">
-              <cite title="Source Title">Bienvenidos a la web oficial de Colmicars.</cite>
-            </figcaption>
-          </figure>
-            <!--
-          <div class="card text-dark bg-light mb-3" style="width: 18rem;">
-            <img src="images/1614996903553.jpg" class="card-img-top" alt="..."width="300">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card text-dark bg-light mb-3" style="width: 18rem;">
-            <img src="images/1614996903553.jpg" class="card-img-top" alt="..."width="300">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-  -->
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-
-        </div>
-
-      <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/js4 colmicar.jpg" class="d-block w-100" alt="Nissan Terrano">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Jac JS4</h5>
-              <p>Vehiculos producidos por el fabricante Chino Jac. Su producción inició en el año 2021</p>
-            </div>
-          </div>
-
-          <div class="carousel-item ">
-            <img src="images/rx8.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Mazda RX8</h5>
-              <p>Automóvil deportivo con motor central-delantero, producido por el fabricante japonés Mazda desde 2002 hasta 2012.</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="images/wrx.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Subaru Impreza WRX</h5>
-              <p>Subaru Impreza WRX STi, un auto construido por y para el Campeonato del Mundo de Rallyes.</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="images/motoreescalada.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Tryumph Daytona 675</h5>
-              <p>Motocicleta deportiva del fabricante de motos inglés Triumph que sustituyó a la Triumph Daytona 650.</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="images/ram.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>RAM 1500</h5>
-              <p>Creadas en 1917 para servir al ejercito de EEUU, revolucionaron la industria de las pickups.</p>
-            </div>
-          </div>
-
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-        </div>
-
-        <div class="b-example-divider"></div>
-
-        <div class="px-4 pt-5 my-5 text-center border-bottom" id="desc">
-          <h1 class="display-4 fw-bold">Sesiones - Juntas</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Presiona el primer boton para llevarte a Google Drive con las fotos de las ultimas sesiones o juntas a las cuales hemos asistido. 
-                                  Si no sabes como descargar tus imagenes puedes presionar el otro boton el cual te llevará a un video con un tutorial.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-              <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3" href="https://drive.google.com/drive/folders/1GOW_e3cY4ZcleQIHyMcCocxNoIx6MlIW?usp=share_link">Ver Fotos</a>
-              <a type="button" class="btn btn-outline-secondary btn-lg px-4" href="mantenimiento.html">Ver Tutorial</a>
-            </div>
-          </div>
-          <div class="overflow-hidden" style="max-height: 30vh;">
-            <div class="container px-5">
-              <img src="images/collage.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
-            </div>
-          </div>
-        </div>
-
-      <!--INSTAGRAM--> 
-
-      <center>
-        <div class="card border-dark mb-3" style="max-width: 780px;">
-          <div class="row g-0">
-            <center>
-            <div class="col-md-4" id="instag">
-              <img src="images/5296765_camera_instagram_instagram logo_icon.png" class="img-fluid" alt="Instagram" style="width: 65px; padding-top: 6px;">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body text-dark" >
-                <h5 class="card-title">Instagram</h5>
-                <p class="card-text">Principal y unica cuenta de instagram. Acá encontrarás la mayor parte de nuestro contenido, desde fotografia hasta videos. Si deseas coordinar una sesion de fotos o un video <a href="mailto:colmicars@gmail.com"> ponte en contacto con nosotros </a> y no olvides especificar lo que deseas. </p>
-                <a type="button" class="btn btn-primary btn-sm" href="https://www.instagram.com/colmicars/" target="_blank">Ver perfil</a>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </center>
-
-
-      <!--SPOTIFY--> 
-      <hr> 
-      <center>
-        <div class="card border-dark mb-3" style="max-width: 780px;">
-          <div class="row g-0">
-            <center>
-            <div class="col-md-4" id="spoti">
-              <img src="images/spotifyredi.png" class="img-fluid" alt="Spotify">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body text-dark" >
-                <h5 class="card-title">Spotify</h5>
-                <p class="card-text">Presentamos las "ColmiList" las cuales son diferentes playlists con diferentes generos de musica, llevandola desde los 80's hasta musica actual, ¡Con la posibilidad de colaborar! Esperamos que sean de tu agrado y encuentres la indicada.</p>
-                <a type="button" class="btn btn-primary btn-sm" href="https://open.spotify.com/user/cevqa5n8pa46n4kuyhmkze3af/playlists" target="_blank">Ir a ver las listas</a>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </center>
-
-      <!--yutub--> 
-      <hr> 
-      <center>
-        <div class="card border-dark mb-3" style="max-width: 780px;">
-          <div class="row g-0">
-            <center>
-            <div class="col-md-4" id="youtube">
-              <img src="images/Youtube_logo.png" class="img-fluid" alt="yutub" style="width: 75px; padding-top: 6px;">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body text-dark" >
-                <h5 class="card-title">Youtube</h5>
-                <p class="card-text">¡Tenemos canal de Youtube! Pero lamentablemente aun no tenemos videos :( 
-                  <br>No te preocupes que ya estamos trabajando en algo para estar activos proximamente por esa plataforma.</p>
-                <a type="button" class="btn btn-primary btn-sm" href="https://www.youtube.com/@colmicars" target="_blank">Ver canal</a>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </center> 
-      
-      
-    </div> 
-  </div>   
-
-      <footer class="container pt-4 pt-md-5 border-top bg-dark text-white" >
-        <div class="row justify-content-md-center">
-          <div class="col col-lg-2">
-            <center><img class="mb-2" src="images/1675262719251.png" alt="Logo Copyright" style="width: 200px; padding-right: 40px ;"></center>
-          </div>
-  <!-- REDES Y CONTACTO  -->
-          <div class="col col-lg-2" style="padding-left: 40px ;">
-            <h5 id="contacto">Redes - Contacto</h5>
-            <ul class="list-unstyled text-small">
-              <li class="mb-1"><i class="bi bi-youtube"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
-              </svg><a class="link-secondary text-decoration-none" href="https://www.youtube.com/@colmicars" target="_blank"> Youtube</a></li>
-
-              <li class="mb-1"><i class="bi bi-spotify"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">
-                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
-              </svg>
-            <a class="link-secondary text-decoration-none" href="https://open.spotify.com/user/cevqa5n8pa46n4kuyhmkze3af/playlists" target="_blank"> Spotify</a></li>
-
-              <li class="mb-1"><i class="bi bi-instagram"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-              </svg><a class="link-secondary text-decoration-none" href="https://www.instagram.com/colmicars/" target="_blank"> Instagram</a></li>
-
-            </ul>
-          </div>
-          <div class="col-md-auto">
-            
-          </div>
-        </div>
-        <hr>
-        <br>
-    <div>
-      <small class="text-muted">&copy; Copyright (c) 2022 Nombre de la empresa
-        Todos los derechos reservados.
-        
-        Esta web está protegida por derechos de autor y se distribuye bajo
-        licencias que restringen la copia, distribución y descompilación.</small>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <br>
-    <br>
-      </footer>
-      
-    <a href="#ini"><img class="Botonsubir" id="botonsubir"src="images/3325054_arrow_circle_up_icon.png"></a>
+
+    <div class="row g-5 ">
+      <div class="col-md-8">
+  
+        <article class="blog-post" id="defi">
+          <br>
+          <h2 >Basilisco (criatura mitologica)</h2>
+          <hr>
+          
+          <p>Seguramente has escuchado más de alguna vez sobre esta criatura, bien conocida por el sur de Chile y sobre todo en la isla de chiloé. <br> En la Edad Media y el Renacimiento, el basilisco se convirtió en un símbolo de la muerte y el mal, apareciendo en la literatura y el arte de la época como un monstruo peligroso y mortífero. También se creía que su veneno era tan poderoso que incluso su propia imagen en un espejo podía ser letal.
+
+            En algunas tradiciones populares, se decía que el basilisco podía ser vencido con la ayuda de un gallo, que era considerado el único animal capaz de enfrentarlo y vencerlo. Por esta razón, en algunas representaciones artísticas del basilisco se le muestra enfrentándose a un gallo.
+            
+            En la actualidad, el basilisco sigue siendo un tema popular en la cultura popular, apareciendo en películas, series de televisión y videojuegos, a menudo como un monstruo poderoso y letal que debe ser derrotado por los héroes de la historia.</p>
+            
+          <br>    
+          <article class="blog-post" id="caract">
+            <br>
+            <h2 class="blog-post-title mb-1">Caracteristicas</h2>
+            <hr>
     
+            <p>En este juego es muy pero que muy importante saber de su economia, debido a que podremos tener mejores armas si dedicamos la partida a no gastar todo nuestro dinero de una.</p>
+            <p>También es importante tener ahorros en el dinero del equipo para apoyar a un compañero con la compra de un arma, lo cual facilitara muchísimo en el funcionamiento de la ronda.</p>
+            <p>Pero ¿Cómo Funciona el dinero en Counter Strike?</p>
+            <p>Al comenzar la primera ronda sea cual sea el bando (antiterrorista o terrorista), comenzaremos con $800, los cuales debemos administrarlos bien si queremos jugar pasivos, ya sea en el lado CT comprando chaleco, o comprar kit o comprar granadas depende mucho de las estrategias del equipo.</p>
+            <p>Por cada eliminación que nosotros hagamos se nos sumara una cantidad de dinero, eso depende muchísimo del arma que llevemos.</p>
+            <p>Por ejemplo:</p>
+            <ul>
+              <li>Cuchillo: $1500</li>
+              <li>Pistola: $300</li>
+              <li>Armas pesadas: $300</li>
+              <li>Escopetas: $900</li>
+              <li>Subfusiles: $600</li>
+              <li>P90: $300</li>
+              <li>Rifles: $300</li>
+              <li>AWP: $100</li>
+            </ul>
+            <p>Sabiendo esto podemos darnos cuenta que arma comprar y en que ronda.</p>
+            <p>Al ganar una ronda por ejemplo del lado CT se obtiene una recompensa de $3250 si se elimina a todo el equipo contrario sin este haber plantado bomba.</p>
+            <p>Si se planta la bomba y los CT la defusan, ganaran una recompensa de $3500 el equipo y $300 el ct que defuso la bomba.</p>
+            <p>Si los terroristas no plantan la bomba, los CT ganara una recompensa de $3250</p>
+            <p>Con los terroristas es muy diferente todo, ya que podemos conseguir dinero simplemente plantando el C4 lo cual serian $300 para quien plante la bomba</p>
+            <p>Si la bomba estalla los terroristas recibirán $3500 </p>
+            <p>Si los CT nos eliminan y defusan la bomba igual recibiremos dinero, un total de $800 solo por plantar y $1400 bonus por perder la ronda</p>
+            <p>En términos mas sencillos el bonus de derrota funciona de la siguiente manera</p>
+            <p>Esto no se recibe si mueres fuera del tiempo reglamentario.</p>
+            <p>Al disparar a un compañero de equipo perderás $300 </p>
+            <img src="images/bonus_derrota.png" alt="">
+            <br>
 
-    <script src="libs/bootstrap/js/bootstrap.min.js" ></script> 
+   
+          </article>
 
-  </body>
+          <br>
+
+          <article class="blog-post border-top" id="armas">
+            <br>
+            <h2 class="blog-post-title mb-1">Armas</h2>
+            <br>
+            
+    
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <blockquote>
+              <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+            </blockquote>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+    
+            <br>
+            <h3>Tabla de Armas</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Categorias</th>
+                  <th>Normales</th>
+                  <th>AntiTerroristas</th>
+                  <th>Terroristas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>PISTOLAS</td>
+                  <td>Berettas dobles
+                      <br>P250
+                      <br>Desert Eagle
+                      <br>Cz75-auto
+                      <br>Revolver
+                    </td>
+                  <td>USP
+                    <br> P2000
+                    <br> Five Seven
+                    </td>
+                  <td>Glock-18
+                    <br>Tec-9
+                  </td>
+  
+                </tr>
+                <tr>
+                  <td>SUBFUSILES</td>
+                  <td>MP5-SD
+                    <br> MP7
+                    <br>UMP-45
+                    <br>P90
+                    <br>PP-Bizon
+                    </td>
+                  <td>MP9</td>
+                  <td>MAC-10</td>
+                </tr>
+  
+                <tr>
+                  <td>ARMAS PESADAS</td>
+                  <td>Nova
+                    <br>Xm1014
+                    <br>Negev
+                    <br>M249
+                    </td>
+                  <td>MAG-7</td>
+                  <td>Recortada</td>
+                </tr>
+  
+                <tr>
+                  <td>RIFLES</td>
+                  <td>SSG-08 
+                    <br>AWP</br>
+                  </td>
+                  <td>FAMAS
+                    <br>M4A1-S
+                    <br>M4A4
+                    <br>AUG
+                    <br>SCAR-20
+                    </td>
+                  <td>Galil AR
+                    <br>AK-47
+                    <br>SG-553
+                    <br>G3SG1
+                    </td>
+                </tr>
+  
+              </tbody>
+              <tfoot>
+              </tfoot>
+            </table>
+    
+            
+          </article>
+
+          <br>
+
+          <article class="blog-post" id="roles">
+            <br>
+            <h3>Roles</h3>
+            <br>
+
+            <p>Cada uno de los 5 jugadores de los equipos debe tener un rol especifico al inicio de la partida, los roles que nombraremos son los siguientes:</p>
+            <ol>
+              <li>IGL (Leader in game): Es el rol importante en el equipo, debido a que se dedica a apoyar y coordinar con los otros 4 jugadores, organizar las rondas para defender o atacar, se podría decir que es como el cerebro del equipo.</li>
+              <br>
+              <li>AWP: Es el jugador que se dedica principalmente a jugar con rifle de Francotirador, ya sea la SSG-08 o la AWP, el cual debe calear a los compañeros las posiciones que pueda ver con la mira, o simplemente llevarse alguna baja al inicio de la ronda.</li>
+              <br>
+              <li>Entry fragger: Es el jugador que abre las bombas, entra despejando o dando la información a los compañeros donde están los enemigos.</li>
+              <br>
+              <li>El Corta apoyo: Es aquel jugador que no juega Rusheando ni tampoco de observador, sino que juega de los últimos, sin ser visto por el equipo enemigo, matando sigilosamente y moviéndose por el mapa.</li>
+              <br>
+              <li>Support: como su nombre lo dice, es el jugador que da soporte al equipo, el cual debe tener conocimiento del lanzamiento de las granadas (lineups) en cada uno de los mapas y apoyar al entry fragger con los humos o las flash, y también da apoyo para facilitar la entrada a las bombas ya sea defendiendo o atacando</li>
+            </ol>
+            <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+            <h2>Heading</h2>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <h3>Sub-heading</h3>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <pre><code>Example code block</code></pre>
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+          </article>
+            
+          </article>
+
+
+
+  <!-- 
+        <nav class="blog-pagination" aria-label="Pagination">
+          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+          <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+        </nav>
+  -->
+      </div>
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4">
+            <h4 class="fst-italic">Accesos Directos</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#defi">¿Que es el basilisco?</a></li>
+              <li><a href="#caract">Caracteristicas</a></li>
+              <li><a href="#armas">Armas</a></li>
+              <li><a href="#roles">Roles</a></li>
+              <li><a href="#mapas">Mapas</a></li>
+              <li><a href="#config">Configuraciones Recomendadas</a></li>
+              <li><a href="#consola">Comandos y consola</a></li>
+              <li><a href="#Workshop">Mapas Workshop</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+  <footer>
+    
+  </footer>
+
+
+
+
+
+
+  </div>
+  <script src="libs/bootstrap/js/bootstrap.min.js" ></script> 
+</body>
 </html>
-
