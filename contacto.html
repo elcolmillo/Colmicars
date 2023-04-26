@@ -22,52 +22,44 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item tolon"><a href="index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+        <li class="nav-item tolon"><a href="index.html" class="nav-link ">Inicio</a></li>
         <li class="nav-item tolon"><a href="detalles.html" class="nav-link">Detalles</a></li>
         <li class="nav-item tolon"><a href="galeria.html" class="nav-link">Galeria</a></li>
-        <li class="nav-item tolon"><a href="contacto.html" class="nav-link ">Contacto</a></li>
+        <li class="nav-item tolon"><a href="contacto.html" class="nav-link active" aria-current="page">Contacto</a></li>
       </ul>
     </header>
   </div>
 
   <div class="b-example-divider"></div>
 
-  <div class="container col-xxl-8 px-4 py-5  border-top">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6 ">
-        <img src="images/gifs/basilisk-from-harry-potter-basilisk-harry-potter.gif"
-          class="d-block mx-lg-auto img-fluid shadow" alt="mision" width="700" height="500" loading="lazy"
-          style="border-radius: 20px;">
-        <small class="text-muted" style="text-align: justify;">
-          Aparicion de un Basilisco en <a href="https://harrypotter.fandom.com/es/wiki/Basilisco" target="_blank">Harry
-            Potter</a></small>
+  <div class="container col-xxl-8 px-4 py-5  border-top border-bottom">
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="contacto">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contacto</h1>
+        <p class="col-lg-10 fs-4">¿Tienes dudas? Deja tus datos para contactarnos contigo y resolverlas.</p>
       </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">¿Que es el Basilisco?</h1>
-        <p class="lead">El basilisco es un ser fabuloso de la mitología griega que se describe como una serpiente
-          gigante cargada de veneno letal y que puede matar con la simple mirada,
-          considerado el rey de las serpientes. Posteriormente, su representación se ha modificado y se lo ha descrito
-          con diferentes características reptilianas. En el siglo VIII, por ejemplo,
-          se le describió como una serpiente con una cresta en forma de corona o mitra en su cabeza y una marca blanca
-          que se asemeja a una diadema. Su influencia se creía tan nociva que su aliento podía
-          marchitar la flora del entorno y resquebrajar las piedras. <a
-            href="https://es.wikipedia.org/wiki/Isidoro_de_Sevilla" alt="Isidoro_de_Sevilla">Isidoro de Sevilla</a> lo
-          definió como el rey de las
-          serpientes debido a su mirada letal y su aliento venenoso.</p>
-        <br>
-        <h5>¿Quieres saber más?</h5>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a type="button" class="btn btn-primary btn-lg px-4 me-md-2"
-            href="https://www.ugr.es/~jsantana/bestialia/basilisco.htm" style="text-decoration: none;color:white;"
-            target="_blank">Ir a Ugr.es</a>
-
-          <a type="button" class="btn btn-outline-secondary btn-lg px-4 tilin" href="https://dle.rae.es/basilisco"
-            style="text-decoration: none;color:rgb(94, 93, 93);" target="_blank">Ir a rae.es</a>
-
-          <a type="button" class="btn btn-outline-secondary btn-lg px-4 tilin"
-            href="https://es.wikipedia.org/wiki/Basilisco_%28criatura_mitol%C3%B3gica%29"
-            style="text-decoration: none;color:rgb(94, 93, 93);" target="_blank">Ir a wikipedia</a>
-        </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <center>
+            <img src="images/logos/basioliscoblac2.png" class="bi" width="100" height="100">
+          </center>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre Apellido">
+            <label for="floatingInput">Nombre y Apellido</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Correo electronico</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="date" class="form-control" id="floatingPassword" placeholder="01-01-2000">
+            <label for="floatingInput">Fecha de nacimiento</label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar</button>
+          <hr class="my-4">
+          <small class="text-body-secondary">Tranquil@ que tus datos no serán vendidos.</small>
+        </form>
       </div>
     </div>
   </div>
