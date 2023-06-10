@@ -1,0 +1,161 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/fondos/pexels-sebastian-sørensen-1276518.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: whitesmoke !important;
+}     
+
+.ct1{
+  background-color: rgba(46, 46, 46, 0.9);
+}
+
+.mb-2 {
+  margin-bottom: .5rem !important;
+}
+.p-3 {
+  padding: 1rem !important;
+}
+
+.container-full {
+  float: right;
+  top: 0;
+  left: 0;
+}
+
+
+.logo-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  z-index: 999;
+}
+
+.logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container-sm {
+  float: right;
+  font-family: Arial, sans-serif;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px; 
+}
+
+.form-group label {
+  font-weight: bold; 
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.form-control {
+  outline: none;
+  box-shadow: none; 
+  color: whitesmoke !important;
+}
+
+.form-control::placeholder {
+  color: #999 !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  border-color: #ddd !important;
+  color: whitesmoke !important;
+}
+
+#btmn{
+  padding-bottom: 20px; 
+  padding-left:20px;
+}
+
+h4{
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .container-sm {
+    float: none;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  h4{
+    font-weight: bold;
+  }
+  
+  .men{
+    float: right;
+    top: 0;
+    left: 0;
+    margin-left: 80%;
+    margin-top: 10%;
+  }
+
+  .menlog{
+    width: 20px;
+  }
+
+  .logo-container {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scroll-top-btn:hover {
+  background-color: #555;
+}
