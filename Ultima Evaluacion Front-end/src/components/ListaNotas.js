@@ -57,7 +57,8 @@ function ListaNotas() {
 
   return (
     <div className="form-container">
-      <h6 className="mb-3 text-muted">Ingrese su nota/recordatorio</h6>
+      <hr></hr>
+      <h6 className="mb-3 text-white">Ingrese su nota/recordatorio</h6>
       <form onSubmit={agregarNota}>
         <div className="mb-3">
           <input ref={tituloRef} type="text" className="form-control" placeholder="Título (opcional)" />
@@ -69,8 +70,9 @@ function ListaNotas() {
           <button type="submit" className="btn btn-primary">Agregar Nota</button>
         </div>
       </form>
-      {error && <p className="text-danger">{error}</p>}
-
+      
+      {error && <p className="text-danger"><hr></hr>{error}</p>}
+      <hr></hr>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 mt-4">
         {notas.map((nota) => (
           <div key={nota.id} className="col mb-4">
@@ -78,6 +80,7 @@ function ListaNotas() {
           </div>
         ))}
       </div>
+      <hr></hr>
     </div>
   );
 }

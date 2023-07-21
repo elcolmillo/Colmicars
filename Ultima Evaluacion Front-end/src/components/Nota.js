@@ -15,15 +15,15 @@ function Nota({ nota, onMarcarImportante }) {
       >
         {titulo || 'Sin título'}
       </h5>
-      <div className={`card-body ${importante ? 'text-dark' : 'text-white'}`}>
-        <p className={`card-text ${importante ? 'text-dark' : 'text-black'}`}>
+      <div className={`card-body ${importante ? 'text-white' : 'text-white'}`}>
+        <p className={`card-text ${importante ? 'text-white' : 'text-white'}`}>
           {descripcion}
         </p>
         <button
           onClick={() => onMarcarImportante(nota.id)}
           className={`btn btn-sm ${importante ? 'btn-secondary' : 'btn-secondary text-white'}`}
         >
-          {importante ? 'Marcar como normal' : 'Marcar como importante'}
+          {importante ? 'Set Normal' : 'Set Importante'}
         </button>
       </div>
     </div>
