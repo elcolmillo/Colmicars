@@ -58,7 +58,7 @@ function ListaNotas() {
   return (
     <div className="form-container">
       <hr></hr>
-      <h6 className="mb-3 text-white">Ingrese su nota/recordatorio</h6>
+      <h6 className="mb-3 text-white">Ingrese su nota/recordatorio: </h6>
       <form onSubmit={agregarNota}>
         <div className="mb-3">
           <input ref={tituloRef} type="text" className="form-control" placeholder="Título (opcional)" />
@@ -67,7 +67,7 @@ function ListaNotas() {
           <textarea ref={descripcionRef} className="form-control" placeholder="Descripción"></textarea>
         </div>
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary">Agregar Nota</button>
+          <button type="submit" className="btn btn-cl">Agregar Nota</button>
         </div>
       </form>
       

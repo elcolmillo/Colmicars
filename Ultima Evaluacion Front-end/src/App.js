@@ -38,13 +38,7 @@ function App() {
     <div className="container mt-5">
       <h1 className="text-center mb-4">Notas/Recordatorios</h1>
       <ListaNotas />
-      <button
-        id="scrollButton"
-        className="btn btn-primary btn-lg position-fixed bottom-0 end-0 mb-3 me-3"
-        onClick={scrollToTop}
-      >
-        Subir
-      </button>
+      <button id="scrollButton" className="btn btn-cil position-fixed bottom-0 end-0 mb-3 me-3" onClick={scrollToTop}> ↑ </button>
     </div>
   );
 }

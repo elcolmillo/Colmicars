@@ -5,7 +5,7 @@ function Nota({ nota, onMarcarImportante }) {
 
   return (
     <div className={`card ${importante ? 'border-danger' : 'border-secondary'}`}>
-      <span className={`badge position-absolute top-0 end-0 ${importante ? 'bg-danger' : 'bg-secondary text-white'}`}>
+      <span className={`badge position-absolute top-0 end-0 mt-2 me-2 ${importante ? 'bg-danger' : 'bg-secondary text-white'}`}>
         {importante ? 'Importante' : 'Normal'}
       </span>
       <h5
@@ -19,10 +19,7 @@ function Nota({ nota, onMarcarImportante }) {
         <p className={`card-text ${importante ? 'text-white' : 'text-white'}`}>
           {descripcion}
         </p>
-        <button
-          onClick={() => onMarcarImportante(nota.id)}
-          className={`btn btn-sm ${importante ? 'btn-secondary' : 'btn-secondary text-white'}`}
-        >
+        <button onClick={() => onMarcarImportante(nota.id)} className={`btn btn-sm btn-mod ${importante ? 'btn-secondary' : 'btn-secondary text-white'}`}>
           {importante ? 'Set Normal' : 'Set Importante'}
         </button>
       </div>
@@ -31,6 +28,7 @@ function Nota({ nota, onMarcarImportante }) {
 }
 
 export default Nota;
+
 
 
 
